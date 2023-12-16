@@ -21,6 +21,10 @@ apt-get install wget
 
 
 ## 코드 실행 방법
-```python
+```shell
+# autodiff
 python process.py -i [INPUT_AUDIO] -r [REFERENCE_AUDIO] -c model.ckpt
+
+# spsa
+python process.py -i [INPUT_AUDIO] -r [REFERENCE_AUDIO] -c spsa.ckpt
 ```
